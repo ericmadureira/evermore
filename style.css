@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'blackchancery';
+  src: url('font/blkchcry.ttf');
+}
+
+html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  background-color: white;
+  /*#EB0B26 vermelho*/
+  box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1{
+	font-family: blackchancery;
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 0.5px 0 0 white;
+}
+
+.pic{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.best_character:hover{
+	background-image: url('best_character.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	/*width: 600px;*/
+	/*height: 600px;*/
+}
+
+.best_location:hover{
+
+}
+
+.best_system:hover{
+
+}

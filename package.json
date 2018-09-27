@@ -1,0 +1,11 @@
+{
+  "name": "evermore",
+  "version": "1.0.0",
+  "description": "A very small project to test sass and show my love for Ni no Kuni 2",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Madureira",
+  "license": "ISC"
+}
